@@ -1,0 +1,25 @@
+body{
+              font-family: 'Gulzar', serif;
+              font-family: 'Poppins', sans-serif;
+              background-image: url(images/donation9.jpg);
+              height: 100%;
+              background-repeat: no-repeat;
+              background-size: cover;
+              
+}
+.header{
+              text-align: center;
+              color: beige;
+              position: absolute;
+              top: 40%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+}
+.para-header{
+              text-align: center;
+              color: navajowhite;
+              position: absolute;
+              top: 60%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+}
