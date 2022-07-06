@@ -6,7 +6,7 @@ body{
 }
 
 
-
+/* =========Hero-First-Section========== */
 
 .hero-first-section{
               text-align: center;
@@ -48,7 +48,7 @@ body{
 }
 
 
-
+/* =========Hero-Second-Section========== */
 
 .hero-second-section{
               text-align: center;
@@ -89,7 +89,7 @@ body{
 }
 
 
-
+/* =========Hero-Third-Section========== */
 
 
 .hero-third-section{
@@ -156,7 +156,7 @@ body{
 
 
 
-
+/* =========Hero-Forth-Section========== */
 
 
 .hero-forth-section{
@@ -176,7 +176,7 @@ body{
 
 
 
-
+/* =========Hero-Fifth-Section========== */
 
 
 .hero-fifth-section{
@@ -221,27 +221,14 @@ body{
               padding: 5px 15px;
 }
 
-
 .input-area .btn{
               height: 30px;
               width: 100px;
 
 }
-/* .btn{
-              text-decoration: none;
-              background-color: blueviolet;
-              color: blanchedalmond;
-              padding: 15px 15px;
-              text-align: center;
-              display: inline-block;
-              font-weight: 400;
-              margin-top: 20px;
-              font-size: 20px;
-              margin-top: 10px;
-} */
 
 
-
+/* =========Footer-Section========== */
 
 .org{
               
