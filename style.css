@@ -1,37 +1,260 @@
 body{
+              margin: 0;
+              padding: 0;
               font-family: 'Gulzar', serif;
               font-family: 'Poppins', sans-serif;
-              background-image: url(images/donation9.jpg);
-              height: 100%;
+}
+
+
+
+
+.hero-first-section{
+              text-align: center;
+              padding-top: 10rem;
+              background-image: url("images/donation9.jpg");
               background-repeat: no-repeat;
               background-size: cover;
-              
+              height: 90vh;
+              opacity: 0.9;
 }
-.header{
-              text-align: center;
-              color: beige;
-              position: absolute;
-              top: 40%;
-              left: 50%;
-              transform: translate(-50%, -50%);
+.hero-title{
+              margin: auto;
+              width: 50%;
 }
-.para-header{
-              text-align: center;
-              color: navajowhite;
-              position: absolute;
-              top: 60%;
-              left: 50%;
-              transform: translate(-50%, -50%);
+.hero-title h1{
+              color: #fff;
+              font-size: 40px;
+}
+.hero-title p{
+              color: rgb(219, 216, 216);
+              width: 100%;
+              display: inline-block;
+}
+.donate-title h1{
+              color: rgb(32, 34, 34);
+              font-size: 40px;
 }
 .link-button{
               text-decoration: none;
-              background-image: linear-gradient(orange, tomato);
+              background-image: linear-gradient(purple, pink);
+              color: blanchedalmond;
               padding: 10px 10px;
-              color: white;
-              font-weight: 600;
+              text-align: center;
+              cursor: pointer;
+              display: inline-block;
+              font-weight: 400;
+              border-radius: 15px;
+              margin-top: 20px;
+}
+
+
+
+
+.hero-second-section{
+              text-align: center;
+              padding-top: 50px;         
+}
+.second-header{
+              font-weight: 700;
+}
+.flexible-container{
+              display: flex;
+              padding-bottom: 80px;
+              width: 50%;
+              margin: auto;
+}
+.container{
+              text-align: center;   
+              background-color: rgb(212, 209, 209);
+              width: 100px;
+              height: 100px;
+              margin-left: 2%;
+              margin-right: 2%;                            
+}
+.red-container{
+              text-align: center;
+              background-color: rgb(209, 95, 95);
+              width: 100px;
+              height: 100px;
+              margin-left: 2%;
+              margin-right: 2%;
+}
+.amount-field{
+              height: 45px;
+              width: 425px;
+              text-align: center;
+              font-size: 15px;
+              border: none;
+              border-bottom: 1px solid rgb(77, 75, 75);
+}
+
+
+
+
+
+.hero-third-section{
+              text-align: center;
+              padding-top: 50px;
+}
+.donate-plan{
+              width: 100%;
+              margin: auto;
+}
+.donate-plan h1{
+              color: rgb(32, 34, 34);
+              font-size: 40px;
+              padding-bottom: 5px;
+}
+
+.donate-plan p{
+              color: rgb(61, 52, 52);
+              width: 70%;
+              display: inline-block;
+}
+.plan-part{
+              display: inline-flex;
+              text-align: center;
+              width: 80%;
+              padding: 10px 10px;
+}
+.plan-part img{
+              padding-top: 50px;
+}
+.plan-part-1{
+              text-align: left;
+              background-color: rgb(212, 177, 211);
+              width: 300px;
+              height: 300px;
+              margin-left: 3%;
+              margin-right: 1%;
+              padding-left: 10px;
+              padding-right: 10px;
               border-radius: 5px;
-              position: absolute;
-              top: 80%;
-              left: 50%;
-              transform: translate(-50%, -50%);
+}
+.plan-part-2{
+              text-align: left;
+              background-color: rgb(230, 231, 149);
+              width: 300px;
+              height: 300px;
+              margin-left: 3%;
+              margin-right: 1%;
+              padding-left: 10px;
+              padding-right: 10px;
+              border-radius: 5px;
+}
+.plan-part-3{
+              text-align: left;
+              background-color: rgb(191, 241, 237);
+              width: 300px;
+              height: 300px;
+              margin-left: 3%;
+              margin-right: 1%;
+              padding-left: 10px;
+              padding-right: 10px;
+              border-radius: 5px;
+}
+
+
+
+
+
+
+.hero-forth-section{
+              display: flex;
+              margin-bottom: 50px;
+              margin-top: 50px;
+              background-image: url(images/Frame\ 58.jpg);
+              background-repeat: no-repeat;
+}
+.half-width{
+              width: 50%;
+              padding-left: 2%;
+}
+.half-width img{
+              width: 80%;
+} 
+
+
+
+
+
+
+.hero-fifth-section{
+              text-align: center;
+              padding-top: 50px;
+}
+.update-part{
+              width: 100%;
+              margin: auto;
+}
+.update-part h1{
+              color: rgb(32, 34, 34);
+              font-size: 40px;
+              width: 100%;
+              
+}
+.update-part p{
+              color: rgb(61, 52, 52);
+              width: 60%;
+              margin: auto;
+}
+.mail-part{
+              height: 100px;
+              width: 80%;
+              text-align: center;
+              background-color: antiquewhite;
+              padding-top: 80px;  
+              margin: auto; 
+              border-radius: 8px;    
+}
+.mail-part input{
+              height: 34px;
+              width: 300px;
+              font-size: 16px;
+}
+.mail-part .input-area a{
+              background-color: cadetblue;
+              color: white;
+              text-align: center;
+              text-decoration: none;
+              font-size: 20px;
+              padding: 5px 15px;
+}
+
+
+.input-area .btn{
+              height: 30px;
+              width: 100px;
+
+}
+/* .btn{
+              text-decoration: none;
+              background-color: blueviolet;
+              color: blanchedalmond;
+              padding: 15px 15px;
+              text-align: center;
+              display: inline-block;
+              font-weight: 400;
+              margin-top: 20px;
+              font-size: 20px;
+              margin-top: 10px;
+} */
+
+
+
+
+.org{
+              
+              color: orangered;
+}
+.foot{
+              padding-top: 4px;
+              height: 160px;
+              text-align: center;
+              background-color: black;
+              margin-top: 100px;
+}
+.foot p{
+              color: whitesmoke;
+              padding-bottom: 30px;
 }
